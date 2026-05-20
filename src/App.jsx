@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function DFASimulation() {
-  const defaultToxicWords = ["tolol", "bodoh", "anjing"];
+  const defaultToxicWords = ["tolol", "bodoh", "anjing", "anj", "bgsd", "bgst", "anj", "bangsad", "bangsat", "ajg"];
 
   const [inputWord, setInputWord] = React.useState("");
   const [detectedWord, setDetectedWord] = React.useState("");
